@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 // structure to represent a process in the Shortest Job First (SJF) scheduling algorithm
 struct Process {
     int id; // Process ID
