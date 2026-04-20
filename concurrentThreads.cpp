@@ -3,7 +3,6 @@
 #include<unistd.h>
 using namespace std;
 
-
 // This program demonstrates concurrent execution of two tasks using threads in C++14.
 
 void taskA(){// Simulate some work in task A
