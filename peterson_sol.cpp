@@ -32,3 +32,15 @@ int main() {
 
     return 0;
 }
+
+//safe only for two threads, not suitable for more than two threads and can be complex to implement correctly.
+
+// problems in peterson's solution:
+
+// 1. It is only designed for two threads, and it does not scale well to more than two threads. If more than two threads 
+// need to access the critical section, the algorithm becomes more complex and less efficient.
+// 2. It relies on busy waiting, which can lead to inefficient CPU usage.
+// 3. It can be difficult to implement correctly, especially in more complex scenarios, and it may not be suitable for all 
+// types of applications. In contrast, mutexes and other synchronization primitives provided by
+// modern programming languages are generally easier to use and more efficient for handling synchronization in multi-threaded applications.
+
